@@ -3,6 +3,8 @@
 **Fractional COO and capital-project partner for food-tech scale-ups. And an open
 blueprint for putting AI to work in a small business.**
 
+![The Model](model.png)
+
 ## What is Thermalwind
 
 Thermalwind helps food-tech and manufacturing scale-ups close the gap between today's
