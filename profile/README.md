@@ -59,7 +59,7 @@ This repo is the structure to do it yourself. The source code, if you will.
 
 ## What is in here
 
-- **The blueprint.** A company's knowledge, data and programs live local-first, in files
+- **The blueprint — the Thermalwind Information Management System (TIMS).** A company's knowledge, data and programs live local-first, in files
   the company owns; an AI reads the knowledge, works the data and runs the programs; what
   it produces is a draft, which a person works over and feeds back in as knowledge or data.
 - **The skill and agent layer.** Reusable workflows and roles that read the design as
