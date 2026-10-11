@@ -71,9 +71,9 @@ This repo is the structure to do it yourself. The source code, if you will.
 
 - The originals are authoritative and never modified by a tool.
 - Compile once, keep it current, instead of searching fresh every time.
-- The AI output is a disposable cache. The asset is the source and the design.
+- The AI output is a disposable cache. The asset is the originals and the design.
 - Design precedes tools, and design and implementation must not drift.
-- Plain text, on your own disk. No lock-in.
+- Plain text, in files you own. No lock-in.
 - Any model, any host. You choose by your data rules, not a vendor roadmap.
 - Humans own judgment and approval. Nothing irreversible happens without a person.
 
