@@ -57,8 +57,9 @@ This repo is the structure to do it yourself. The source code, if you will.
 
 ## What is in here
 
-- **The blueprint.** A system where a company's knowledge lives as plain text on its own
-  disk, an AI reads a compiled layer of it, and nothing the AI produces is the asset.
+- **The blueprint.** A company's knowledge, data and programs live local-first, in files
+  the company owns; an AI reads the knowledge, works the data and runs the programs; what
+  it produces is a draft, which a person works over and feeds back in as knowledge or data.
 - **The skill and agent layer.** Reusable workflows and roles that read the design as
   binding rules.
 - **A skeleton.** A minimal setup to stand the system up and run one grounded task.
