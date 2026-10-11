@@ -77,12 +77,15 @@ This repo is the structure to do it yourself. The source code, if you will.
 - Any model, any host. You choose by your data rules, not a vendor roadmap.
 - Humans own judgment and approval. Nothing irreversible happens without a person.
 
-## Prior art
+## Inspiration
 
-This stands on named shoulders, credited rather than absorbed: Andrej Karpathy's **LLM
-Wiki pattern** (compile, don't retrieve), **local-first software** (Ink & Switch),
-**file over app** (Steph Ango), and Anthropic's **Model Context Protocol** and **context
-engineering**.
+| Source | Why it matters here |
+| --- | --- |
+| **Andrej Karpathy — [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)** | Compile knowledge once instead of re-deriving it on every question. The foundation of the method. |
+| **Ink & Switch / Martin Kleppmann — [Local-first software](https://www.inkandswitch.com/essay/local-first/)** | You own the data. A server is a supporting peer, never the source of truth. |
+| **Steph Ango — [File over app](https://stephango.com/file-over-app)** | Files you control, in formats that outlive the tool. |
+| **Anthropic — [Model Context Protocol](https://modelcontextprotocol.io/)** | The open standard that connects an AI to tools and data. |
+| **Anthropic — [Context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)** | Deciding what the model sees, and when. |
 
 ## Status
 
