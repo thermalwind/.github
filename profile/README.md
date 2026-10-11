@@ -75,6 +75,13 @@ This repo is the structure to do it yourself. The source code, if you will.
 - Any model, any host. You choose by your data rules, not a vendor roadmap.
 - Humans own judgment and approval. Nothing irreversible happens without a person.
 
+## Prior art
+
+This stands on named shoulders, credited rather than absorbed: Andrej Karpathy's **LLM
+Wiki pattern** (compile, don't retrieve), **local-first software** (Ink & Switch),
+**file over app** (Steph Ango), and Anthropic's **Model Context Protocol** and **context
+engineering**.
+
 ## Status
 
 Early. This is a first cut, not a finished product. The repository is sanitized: no
