@@ -3,7 +3,7 @@
 **Fractional COO and capital-project partner for food-tech scale-ups. And an open
 blueprint for putting AI to work in a small business.**
 
-![The Model](model.png)
+![The model: the agent at the centre, Source and Design outside](../assets/thermalwind-design-model.svg)
 
 ## What is Thermalwind
 
@@ -57,35 +57,17 @@ I want to help them implement AI effectively.
 
 This repo is the structure to do it yourself. The source code, if you will.
 
-## What is in here
+## In this repo
 
-- **The blueprint — the Thermalwind Information Management System (TIMS).** A company's knowledge, data and programs live local-first, in files
-  the company owns; an AI reads the knowledge, works the data and runs the programs; what
-  it produces is a draft, which a person works over and feeds back in as knowledge or data.
-- **The skill and agent layer.** Reusable workflows and roles that read the design as
-  binding rules.
-- **A skeleton.** A minimal setup to stand the system up and run one grounded task.
-- **A start guide.** From clone to first working task.
-
-## The principles
-
-- The originals are authoritative and never modified by a tool.
-- Compile once, keep it current, instead of searching fresh every time.
-- The AI output is a disposable cache. The asset is the originals and the design.
-- Design precedes tools, and design and implementation must not drift.
-- Plain text, in files you own. No lock-in.
-- Any model, any host. You choose by your data rules, not a vendor roadmap.
-- Humans own judgment and approval. Nothing irreversible happens without a person.
-
-## Inspiration
-
-| Source | Why it matters here |
-| --- | --- |
-| **Andrej Karpathy — [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)** | Compile knowledge once instead of re-deriving it on every question. The foundation of the method. |
-| **Ink & Switch / Martin Kleppmann — [Local-first software](https://www.inkandswitch.com/essay/local-first/)** | You own the data. A server is a supporting peer, never the source of truth. |
-| **Steph Ango — [File over app](https://stephango.com/file-over-app)** | Files you control, in formats that outlive the tool. |
-| **Anthropic — [Model Context Protocol](https://modelcontextprotocol.io/)** | The open standard that connects an AI to tools and data. |
-| **Anthropic — [Context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)** | Deciding what the model sees, and when. |
+- **[The blueprint](../blueprint.md)** — the design. A company's knowledge, data and programs
+  live local-first, in files the company owns; an agent reads the knowledge, works the data
+  and runs the programs; what it produces is a draft, which a person works over and feeds
+  back in. The argument, the principles and the vocabulary live there, not here — so they
+  have one home and cannot drift apart.
+- **[Implement it](../implement.md)** — how to stand the system up in your own vault, written as
+  it is walked.
+- **[The template `_design`](../template/)** — the smallest version of the design that still
+  works: the files a business fills in for itself.
 
 ## Status
 

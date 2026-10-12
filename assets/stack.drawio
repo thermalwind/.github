@@ -1,0 +1,172 @@
+<mxfile host="embed.diagrams.net" agent="Obsidian vault">
+  <diagram id="stack" name="The setup">
+    <mxGraphModel dx="1327" dy="1242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1460" pageHeight="1520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" value="The setup — one concrete instance" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#555555;" value="the complete drawing: every box is a real thing in this instance. All the files are one Obsidian vault on your own disk. The model drawing in the blueprint is the same picture with the tools taken out." vertex="1">
+          <mxGeometry height="26" width="900" x="40" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-14" edge="1" parent="1" source="source" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="agent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="source" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;arcSize=8;fontSize=14;" value="&lt;b&gt;SOURCE&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:12px&#39;&gt;the originals&lt;br&gt;read-only&lt;/span&gt;" vertex="1">
+          <mxGeometry height="260" width="200" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-15" edge="1" parent="1" source="design" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="agent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="design" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;arcSize=8;fontSize=14;" value="&lt;b&gt;DESIGN&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:12px&#39;&gt;the rulebook&lt;br&gt;governs&lt;/span&gt;" vertex="1">
+          <mxGeometry height="260" width="200" x="1020" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-16" edge="1" parent="1" source="agent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="design">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-28" edge="1" parent="1" source="agent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CHNNUMemNyezApr1O-OZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agent" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b6bd6;strokeColor=#1a4a99;fontColor=#ffffff;fontSize=14;" value="&lt;b&gt;TIMS&lt;/b&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="550" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="know" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="&lt;b&gt;COMPILED KNOWLEDGE&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;what it knows — regeneratable&lt;/span&gt;" vertex="1">
+          <mxGeometry height="176" width="176" x="122" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-1" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bean">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-2" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="grist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-31" edge="1" parent="1" source="data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="agent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="data" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="&lt;b&gt;STRUCTURED DATA&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;what it holds&lt;/span&gt;" vertex="1">
+          <mxGeometry height="176" width="176" x="484" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-3" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sketch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-4" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="office">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-6" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="CHNNUMemNyezApr1O-OZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-20" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CHNNUMemNyezApr1O-OZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-21" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CHNNUMemNyezApr1O-OZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-23" edge="1" parent="1" source="prog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="CHNNUMemNyezApr1O-OZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prog" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="&lt;b&gt;PROGRAMS&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;what it runs&lt;/span&gt;" vertex="1">
+          <mxGeometry height="176" width="176" x="770" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ds" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=10;" value="&lt;b&gt;DeepSeek V4.1&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;the model&lt;/span&gt;" vertex="1">
+          <mxGeometry height="64" width="200" x="380" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-10" edge="1" parent="1" source="req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="CHNNUMemNyezApr1O-OZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="req" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=10;" value="&lt;b&gt;Requesty&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;the EU model router&lt;/span&gt;" vertex="1">
+          <mxGeometry height="64" width="200" x="560" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="grist" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="&lt;b&gt;Grist&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;the register&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="140" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="bean" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="&lt;b&gt;beancount&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;the ledgers&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="340" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="sketch" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="&lt;b&gt;SketchUp&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;the 3D models&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="643" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="office" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="&lt;b&gt;MS Office&lt;/b&gt;&lt;br&gt;&lt;span style=&#39;font-size:11px&#39;&gt;in and out&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="920" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="e-agent-data" edge="1" parent="1" source="CHNNUMemNyezApr1O-OZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#82b366;fontSize=11;fontColor=#555555;labelBackgroundColor=#ffffff;" target="data" value="works">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-agent-prog" edge="1" parent="1" source="agent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#d79b00;fontSize=11;fontColor=#555555;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="prog" value="runs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-agent-req" edge="1" parent="1" source="CHNNUMemNyezApr1O-OZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#82b366;fontSize=11;fontColor=#555555;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="req" value="the API call">
+          <mxGeometry relative="1" x="-0.6703" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="320" />
+              <mxPoint x="650" y="290" />
+              <mxPoint x="560" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-req-ds" edge="1" parent="1" source="req" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#82b366;fontSize=11;fontColor=#555555;labelBackgroundColor=#ffffff;" target="ds" value="routes to">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="&lt;b&gt;Slides&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="760" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=10;" value="&lt;b&gt;Qwen 3.5 9B&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px'&gt;local · offline&lt;/span&gt;" vertex="1">
+          <mxGeometry height="64" width="200" x="670" y="90" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="CHNNUMemNyezApr1O-OZ-12" edge="1" parent="1" source="agent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.001;entryY=0.548;entryDx=0;entryDy=0;entryPerimeter=0;" target="source">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="&lt;b&gt;Mail&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="1110" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="&lt;b&gt;Search&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="1110" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=10;" value="Calendar" vertex="1">
+          <mxGeometry height="80" width="180" x="1110" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-26" edge="1" parent="1" source="CHNNUMemNyezApr1O-OZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="agent" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b6bd6;strokeColor=#1a4a99;fontColor=#ffffff;fontSize=14;" value="&lt;b&gt;obsidian-copilot&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px'&gt;the agent host, in the editor&lt;/span&gt;" vertex="1">
+          <mxGeometry x="690" y="300" width="130" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b6bd6;strokeColor=#1a4a99;fontColor=#ffffff;fontSize=14;" value="&lt;b&gt;opencode&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px'&gt;the agent host, in the terminal&lt;/span&gt;" vertex="1">
+          <mxGeometry x="830" y="270" width="130" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-29" edge="1" parent="1" source="agent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#82b366;fontSize=11;fontColor=#555555;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="CHNNUMemNyezApr1O-OZ-27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="520" as="sourcePoint" />
+            <mxPoint x="198" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-30" edge="1" parent="1" source="CHNNUMemNyezApr1O-OZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="know">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CHNNUMemNyezApr1O-OZ-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;LLM WIKI&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="95" width="90" x="310" y="565" as="geometry" />
+        </mxCell>
+
+        <mxCell id="floor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;arcSize=6;verticalAlign=top;fontSize=12;fontStyle=2;fontColor=#555555;" value="the floor — a fresh vault needs this, and nothing else. &amp;nbsp;Everything below is a capability you add when a real task demands it." vertex="1">
+          <mxGeometry x="40" y="1290" width="1300" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="floor-machine" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;arcSize=10;" value="&lt;b&gt;a machine you own&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px'&gt;any OS&lt;/span&gt;" vertex="1">
+          <mxGeometry x="70" y="1350" width="260" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="floor-cli" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;arcSize=10;" value="&lt;b&gt;the CLI tools&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px'&gt;git · Python 3 · a package manager&lt;/span&gt;" vertex="1">
+          <mxGeometry x="350" y="1350" width="330" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="floor-obsidian" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;arcSize=10;" value="&lt;b&gt;Obsidian&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px'&gt;free · Bases inside&lt;/span&gt;" vertex="1">
+          <mxGeometry x="700" y="1350" width="230" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="floor-host" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=10;" value="&lt;b&gt;obsidian-copilot&lt;/b&gt;  or  &lt;b&gt;opencode&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px'&gt;one agent host — pick one&lt;/span&gt;" vertex="1">
+          <mxGeometry x="960" y="1350" width="350" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="floor-note" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#555555;" value="…plus one model key (the router, top right) and the skills (the programs circle — nothing to install)." vertex="1">
+          <mxGeometry x="70" y="1445" width="900" height="24" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
